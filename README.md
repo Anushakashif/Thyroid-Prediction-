@@ -58,8 +58,9 @@ Data Split:
 Random Forest Classifier — chosen for its robustness, interpretability, and ability to handle non-linear interactions between features
 
 # Evaluation Metrics:
-Accuracy Score  Confusion Matrix  
-Classification Report (Precision, Recall, F1-Score)
+Accuracy Score  
+Confusion Matrix  
+Classification Report   
 ROC-AUC Curve for performance visualization
 
 AUC Score: 0.88 (Excellent discrimination)
