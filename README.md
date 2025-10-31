@@ -82,7 +82,7 @@ Implemented consistent label encoding across training and inference.
 Created an interactive AI-driven clinical decision-support app using Streamlit.  
 Gained insight into feature importance and interpretability for healthcare ML.
 
-Tools / Libraries Used
+# Tools / Libraries Used  
 pandas, numpy, matplotlib, seaborn, scikit-learn, joblib, Streamlit, Google Colab, Streamlit Cloud 
 
 
