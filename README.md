@@ -26,6 +26,7 @@ Focality
 T (Tumor stage)
 N (Lymph node involvement)
 M (Metastasis status)
+
 Dropped Columns:
 Risk, Stage, and Response — removed to prevent data leakage, since they are derived post-diagnosis and not available at prediction time
 
