@@ -1,4 +1,4 @@
-🧬 #Thyroid Cancer Recurrence Prediction
+# 🧬 Thyroid Cancer Recurrence Prediction
 
 📘 Project Overview
 
@@ -8,7 +8,7 @@ It demonstrates an end-to-end medical AI workflow — from data preprocessing an
 Objective:
 To estimate whether a patient is likely to experience recurrence of thyroid cancer based on pre-treatment features.
 
-📊 Dataset Summary
+# 📊 Dataset Summary
 Binary Classification
 Target Variable	Type: Recurred (Yes / No)	
 
@@ -29,7 +29,7 @@ M (Metastasis status)
 Dropped Columns:
 Risk, Stage, and Response — removed to prevent data leakage, since they are derived post-diagnosis and not available at prediction time
 
-Data Preprocessing & Exploration
+# Data Preprocessing & Exploration
 Verified data integrity and handled any missing or inconsistent entries.
 Renamed typo column Hx Radiothreapy → Hx Radiotherapy.
 Dropped derived columns: Risk, Stage, Response.
@@ -40,7 +40,7 @@ Visualized distributions of categorical variables.
 Checked recurrence ratios to ensure class balance.
 Assessed relationships between variables using correlation and feature inspection
 
-Model Training & Evaluation
+# Model Training & Evaluation
 Trained and compared five supervised learning algorithms:
 
 Logistic Regression
@@ -53,10 +53,10 @@ Data Split:
 80% Training
 20% Testing
 
-Selected Model:
+# Selected Model:
 Random Forest Classifier — chosen for its robustness, interpretability, and ability to handle non-linear interactions between features
 
-Evaluation Metrics:
+# Evaluation Metrics:
 Accuracy Score
 Confusion Matrix
 Classification Report (Precision, Recall, F1-Score)
@@ -65,16 +65,16 @@ ROC-AUC Curve for performance visualization
 AUC Score: 0.88 (Excellent discrimination)
 Interpretation: The model achieves an AUC of 0.88, indicating strong ability to distinguish between recurrence and non-recurrence cases.
 
-Streamlit App Development
+# Streamlit App Development
 Developed a Streamlit web interface (app.py) for interactive predictions.
 
-Key Features:
+# Key Features
 User-friendly dropdowns for clinical input 
 Automatic label encoding matching the training logic
 Displays prediction and model confidence (%)
 Clean, modern UI with clear clinical explanations
 
-📈 Key Takeaways
+# 📈 Key Takeaways
 Built an end-to-end ML pipeline for a real-world medical problem.
 Learned to identify and prevent data leakage (dropping post-diagnosis features).
 Implemented consistent label encoding across training and inference.
