@@ -10,7 +10,7 @@ To estimate whether a patient is likely to experience recurrence of thyroid canc
 
 # 📊 Dataset Summary
 Binary Classification
-Target Variable	Type: Recurred (Yes / No)	
+383 rows and 17 columns 
 
 Features Used:
 Age
