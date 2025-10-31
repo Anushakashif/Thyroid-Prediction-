@@ -58,8 +58,7 @@ Data Split:
 Random Forest Classifier — chosen for its robustness, interpretability, and ability to handle non-linear interactions between features
 
 # Evaluation Metrics:
-Accuracy Score
-Confusion Matrix
+Accuracy Score  Confusion Matrix  
 Classification Report (Precision, Recall, F1-Score)
 ROC-AUC Curve for performance visualization
 
@@ -67,9 +66,9 @@ AUC Score: 0.88 (Excellent discrimination)
 Interpretation: The model achieves an AUC of 0.88, indicating strong ability to distinguish between recurrence and non-recurrence cases.
 
 # Streamlit App Development
-Developed a Streamlit web interface (app.py) for interactive predictions.
+Developed a Streamlit web interface for interactive predictions.
 
-# Key Features
+Key Features
 User-friendly dropdowns for clinical input 
 Automatic label encoding matching the training logic
 Displays prediction and model confidence (%)
