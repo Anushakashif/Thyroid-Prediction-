@@ -9,7 +9,7 @@ Objective:
 To estimate whether a patient is likely to experience recurrence of thyroid cancer based on pre-treatment features.
 
 # 📊 Dataset Summary
-Binary Classification
+Binary Classification.
 383 rows and 17 columns 
 
 Features Used:
