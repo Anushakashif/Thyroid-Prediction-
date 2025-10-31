@@ -1,9 +1,9 @@
 # 🧬 Thyroid Cancer Recurrence Prediction
 
-📘 Project Overview
+# 📘 Project Overview
 
 This project focuses on developing a machine learning model to predict the likelihood of thyroid cancer recurrence based on clinical, demographic, and pathological features.
-It demonstrates an end-to-end medical AI workflow — from data preprocessing and feature encoding to model training, evaluation, and web app deployment using Streamlit.
+It demonstrates an end-to-end medical AI workflow from data preprocessing and feature encoding to model training, evaluation, and web app deployment using Streamlit.
 
 Objective:
 To estimate whether a patient is likely to experience recurrence of thyroid cancer based on pre-treatment features.
