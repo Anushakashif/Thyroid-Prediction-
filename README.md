@@ -44,10 +44,10 @@ Assessed relationships between variables using correlation and feature inspectio
 # Model Training & Evaluation
 Trained and compared five supervised learning algorithms:
 
-Logistic Regression,
-Gaussian Naive Bayes,
-K-Nearest Neighbors (KNN),
-Support Vector Machine (SVM),
+Logistic Regression  
+Gaussian Naive Bayes  
+K-Nearest Neighbors (KNN)  
+Support Vector Machine (SVM)  
 Random Forest Classifier
 
 Data Split:
@@ -63,28 +63,26 @@ Confusion Matrix
 Classification Report   
 ROC-AUC Curve for performance visualization
 
-AUC Score: 0.88 (Excellent discrimination)
+AUC Score: 0.88 (Excellent discrimination)  
 Interpretation: The model achieves an AUC of 0.88, indicating strong ability to distinguish between recurrence and non-recurrence cases.
 
 # Streamlit App Development
 Developed a Streamlit web interface for interactive predictions.
 
 Key Features
-User-friendly dropdowns for clinical input 
-Automatic label encoding matching the training logic
-Displays prediction and model confidence (%)
+User-friendly dropdowns for clinical input   
+Automatic label encoding matching the training logic  
+Displays prediction and model confidence (%)  
 Clean, modern UI with clear clinical explanations
 
 # 📈 Key Takeaways
-Built an end-to-end ML pipeline for a real-world medical problem.
-Learned to identify and prevent data leakage (dropping post-diagnosis features).
-Implemented consistent label encoding across training and inference.
-Created an interactive AI-driven clinical decision-support app using Streamlit.
+Built an end-to-end ML pipeline for a real-world medical problem.  
+Learned to identify and prevent data leakage (dropping post-diagnosis features).  
+Implemented consistent label encoding across training and inference.  
+Created an interactive AI-driven clinical decision-support app using Streamlit.  
 Gained insight into feature importance and interpretability for healthcare ML.
 
 Tools / Libraries Used
 pandas, numpy, matplotlib, seaborn, scikit-learn, joblib, Streamlit, Google Colab, Streamlit Cloud 
 
 
-Dropped Columns:
-Risk, Stage, and Response — removed to prevent data leakage, since they are derived post-diagnosis and not available at prediction time.
