@@ -44,10 +44,10 @@ Assessed relationships between variables using correlation and feature inspectio
 # Model Training & Evaluation
 Trained and compared five supervised learning algorithms:
 
-Logistic Regression
-Gaussian Naive Bayes
-K-Nearest Neighbors (KNN)
-Support Vector Machine (SVM)
+Logistic Regression,
+Gaussian Naive Bayes,
+K-Nearest Neighbors (KNN),
+Support Vector Machine (SVM),
 Random Forest Classifier
 
 Data Split:
